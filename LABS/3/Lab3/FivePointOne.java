@@ -23,7 +23,7 @@ public class FivePointOne {
 				negitive++;
 			}
 }
-				average = total / sum ; 
+				average = total / sum ; // JA: This is an integer operation. You have to force it to be double
 				
 				System.out.println("The number of positves are: " + positive);
 				System.out.println("The number of negitives are: " + negitive);
