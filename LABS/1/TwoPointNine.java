@@ -13,7 +13,7 @@ public class TwoPointNine {
 		int number2 = input.nextInt();
 		int number3 = input.nextInt();
 		
-		System.out.println("The average acceleration is " + (number1 - number2) / number3 );
+		System.out.println("The average acceleration is " + (number1 - number2) / number3 ); // JA: It should be (number2 - number1) / number3
 
 	}
 
