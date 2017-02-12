@@ -10,7 +10,7 @@ public class FourPointThirteen {
 		
 		char letter = input.next().charAt(0);
 		
-		if (letter < 'a' || letter > 'Z' ) {
+		if (letter < 'a' || letter > 'Z' ) { // JA: No letter will meet this conditin, since 'Z' < 'a'
 			System.out.print("That is an invalad charecter");
 			System.exit(1);
 		}
