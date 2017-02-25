@@ -44,7 +44,7 @@ public class EightPointSeven {
 
 	                "(" + points[p1][0] + ", " + points[p1][1] + ") and (" +
 
-	                points[p2][0] + ", " + points[p2][1] + ")");
+	                points[p2][0] + ", " + points[p2][1] + ")"); // JA: You forgot to print the z value
 	    }
 	    public static double distance(
 
