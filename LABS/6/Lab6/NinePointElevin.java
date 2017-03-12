@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+// JA: Always add comments to your code
+// JA: How do I test this?
 public class NinePointElevin {
 	private double a;
 	private double b;
