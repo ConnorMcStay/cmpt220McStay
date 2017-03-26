@@ -81,7 +81,7 @@ public class Circle2D {
 
 				 Math.pow(circle.getY() - y, 2)) 
 
-				 <= Math.abs(radius - circle.getRadius());
+				 <= radius - circle.getRadius(); // JA
 
 	}
 	public boolean overlaps(Circle2D circle) {
