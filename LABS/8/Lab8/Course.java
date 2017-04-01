@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 
+//JA: There is no class to test this
 public class Course {
 
 		private String courseName;
 		private ArrayList<String> students = new ArrayList<>();
-		private int numberOfStudents;
+		private int numberOfStudents; // JA: You don't need this anymore
 		
 		public Course(String courseName){
 			this.courseName = courseName;
